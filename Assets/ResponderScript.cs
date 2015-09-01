@@ -8,7 +8,7 @@ public class ResponderScript : MonoBehaviour {
 	public static string str_ipadr = "";
 
 	void Start () {
-		DontDestroyOnLoad (this); // to access public static variables from other scene	
+		DontDestroyOnLoad (IF_ipadr); // to access public static variables from other scene	
 		loadOldSetting ();
 	}
 
